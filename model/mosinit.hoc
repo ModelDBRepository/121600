@@ -1,0 +1,5 @@
+//moddir 4
+load_file("nrngui.hoc")
+chdir("4")
+load_file("Neuron.hoc")
+load_file("Exp4.ses")

@@ -1,0 +1,24 @@
+create soma	
+access soma	
+
+{L = 30 diam = 20} 
+  
+insert leak
+insert HH
+
+celsius = 35
+
+nao = 145 
+{ki = 135 ko = 3.1}
+{cli = 7 clo = 120}
+
+pk_leak=8e-6
+
+objref stimulus
+stimulus = new IClamp(0.5)
+stimulus.amp = 0.2
+stimulus.del = 100
+stimulus.dur = 100
+
+psection()
+

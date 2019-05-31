@@ -1,0 +1,42 @@
+load_file("nrngui.hoc")
+v_init = -70
+tstop = 500
+
+create soma	
+access soma	
+
+{L = 30 diam = 20} 
+  
+insert leak
+insert HH
+insert iA
+insert iC
+insert iH
+insert iT
+insert iNaP
+insert iL
+
+
+celsius = 35
+
+nao = 145 
+{ki = 135 ko = 3.1}
+{cli = 7 clo = 120}
+
+pk_leak=8e-6
+gkbar_iA=0.0055
+gkbar_iC=0.00018
+ghbar_iH=0.0006
+eh= -40
+pcabar_iT=0.00045
+g_iNaP=17e-5
+
+
+objref stimulus
+stimulus = new IClamp(0.5)
+stimulus.amp = 0.2
+stimulus.del = 100
+stimulus.dur = 100
+
+psection()
+
