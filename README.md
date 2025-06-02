@@ -16,10 +16,11 @@ paper. Also, for additional help see
 [https://senselab.med.yale.edu/ModelDB/NEURON_DwnldGuide.cshtml](https://senselab.med.yale.edu/ModelDB/NEURON_DwnldGuide.cshtml)
 
 If you autolaunch from ModelDB (which runs the Neuron.hoc in folder 4) you
-can change the current to 3.2:
-![IClamp window](./screenshot1.png)
+can change the current to 3.2:  
+![IClamp window](./screenshot1.png)  
+
 and then pressing Init&Run will display a figure similar to Fig 4A in
-the paper:
+the paper:  
 ![voltage graph](./screenshot2.png)
 
 ---
