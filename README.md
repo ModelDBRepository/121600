@@ -1,9 +1,8 @@
-<html> <pre>
 The NEURON model code associated with the paper:
 
 Meuth P, Meuth SG, Jacobi D, Broicher T, Pape HC, Budde T (2005) Get
-the Rhythm: Modeling Neuronal Activity Journal of Undergraduate
-Neuroscience Education (JUNE) 4(1):A1-A11
+the Rhythm: Modeling Neuronal Activity *Journal of Undergraduate
+Neuroscience Education (JUNE)* 4(1):A1-A11
 
 used to be available at the supplementary material links here:
 http://www.patrick-meuth.de/pub.html
@@ -14,12 +13,15 @@ To run the model, download and extract this archive. Compile the mod
 files in the folder that you would like to run and start by using
 either the mosinit.hoc file or the instructions in the appendix in the
 paper. Also, for additional help see
-<a href="https://senselab.med.yale.edu/ModelDB/NEURON_DwnldGuide.cshtml">https://senselab.med.yale.edu/ModelDB/NEURON_DwnldGuide.cshtml</a>
+[https://senselab.med.yale.edu/ModelDB/NEURON_DwnldGuide.cshtml](https://senselab.med.yale.edu/ModelDB/NEURON_DwnldGuide.cshtml)
 
 If you autolaunch from ModelDB (which runs the Neuron.hoc in folder 4) you
 can change the current to 3.2:
-<img src="./screenshot1.png" alt="(IClamp window)">
+![IClamp window](./screenshot1.png)
 and then pressing Init&Run will display a figure similar to Fig 4A in
 the paper:
-<img src="./screenshot2.png" alt="(voltage graph)" width="550">
-</pre></html>
+![voltage graph](./screenshot2.png)
+
+---
+
+2025-06-02: Converted README to Markdown.
